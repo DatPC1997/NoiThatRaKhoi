@@ -1,0 +1,2783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../font/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/outPut.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>HomePage</title>
+  </head>
+  <body>
+    <!-- ============== header =============== -->
+
+    <header class=" shadow-xl fixed left-0 right-0 top-0 z-50 bg-white">
+      <!-- header pc  -->
+      <div class="hidden justify-between items-center lg:flex py-6 container mx-auto ">
+        <div class="logo">
+          <img src="../img/logo.png" alt="" />
+        </div>
+        <div class="menu">
+          <ul class="">
+              <li>
+                <a
+                href=""
+                class=""
+                >Trang chủ</a
+              >
+              </li>
+              <li>
+                <a
+                href="./info.html"
+                class=""
+                >Giới thiệu</a
+              >
+              </li>
+              <li>
+                <a
+                href="./products.html"
+                class=""
+                >Sản phẩm</a
+              >
+              </li>
+              <li>
+                <a
+                href="./service.html"
+                class=""
+                >Dịch vụ</a
+              >
+              </li>
+              <li>
+                <a
+                href="./news.html"
+                class=""
+                >Tin tức</a
+              >
+              </li>
+              <li>
+                <a
+                href="./contact.html"
+                class=""
+                >Liên hệ</a
+              >
+              </li>
+          </ul>
+        </div>
+        <div class="flex items-center justify-center">
+          <div class="search relative">
+            <input
+              class="bg-[#ECECEC] px-3 py-1 rounded-full"
+              type="text"
+              placeholder="Tìm kiếm...."
+            />
+            <a href="" class="duration-300 transition-all hover:text-yellow-400">
+              <i class="fa-solid fa-magnifying-glass absolute icon_search"></i>
+            </a>
+          </div>
+          <a
+            href="./cart.html"
+            class="cart ml-3 text-[#FAB207] transition-all duration-300 hover:text-yellow-400 relative"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="product_text">1</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- header mobi -->
+      <div class="flex justify-between items-center lg:hidden py-3 container mx-auto">
+        <div class="logo">
+          <img src="../img/logo.png" alt="" />
+        </div>
+
+        <div class="flex items-center justify-center">
+          <div class="search relative">
+            <input
+              class="bg-[#cecece] px-3 py-1 rounded-full w-full"
+              type="text"
+              placeholder="Tìm kiếm...."
+            />
+            <a href="" class="duration-300 transition-all hover:text-yellow-400">
+              <i class="fa-solid fa-magnifying-glass absolute icon_search"></i>
+            </a>
+          </div>
+          <a
+            href=""
+            class="hidden lg:block cart ml-3 hover:text-yellow-400 duration-300 transition-all relative"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="product_text">1</span>
+          </a>
+        </div>
+
+        <div
+          class="icon_menu cursor-pointer px-3 transition-all duration-300 hover:text-yellow-400 show_Menu text-lg"
+        >
+        <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div class="box_mobi">
+          <div class="menu_mobi bg-white w-80">
+            <div class="logo">
+              <img src="../img/logo.png" alt="" />
+            </div>
+            <ul class="">
+              <li>
+                <a
+                href=""
+                class=""
+                >Trang chủ</a
+              >
+              </li>
+              <li>
+                <a
+                href=""
+                class=""
+                >Giới thiệu</a
+              >
+              </li>
+              <li>
+                <a
+                href=""
+                class=""
+                >Sản phẩm</a
+              >
+              </li>
+              <li>
+                <a
+                href=""
+                class=""
+                >Dịch vụ</a
+              >
+              </li>
+              <li>
+                <a
+                href=""
+                class=""
+                >Tin tức</a
+              >
+              </li>
+              <li>
+                <a
+                href=""
+                class=""
+                >Liên hệ</a
+              >
+              </li>
+            </ul>
+            <div class="icon_clear absolute">
+              <i class="fa-solid fa-x"></i>
+            </div>
+          </div>
+          <div class="bg_over_menu"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- baner  -->
+
+    <section class="">
+      <div class="swiper slider_Banner relative">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide w-full img_slider">
+            <div
+              class="py-[20%] lg:py-[12%] bg-gradient-to-r from-[#4A3E00] to-[ #282200]"
+            >
+              <div
+                class="container  mx-auto text-center lg:text-start"
+              >
+                <p
+                  class="uppercase text-[#FFD952] text-[28px] sm:text-[32px] lg:text-[56px] font-normal text_shadow"
+                >
+                  Dẫn đầu xu hướng
+                </p>
+                <p
+                  class="uppercase text-[#FFD952] text-[28px] sm:text-[32px] lg:text-[56px] font-normal text_shadow"
+                >
+                  Tầm nhìn phong cách
+                </p>
+                <a
+                  href=""
+                  class="flex items-center justify-center lg:justify-normal"
+                >
+                  <div
+                    class="bg-[#FAB207] flex items-center justify-center rounded-[20px] hover:bg-[#ffcd57] duration-300 transition-all"
+                  >
+                    <span
+                      class="hover:bg-[#ffcd57] hover:text-white transition-all duration-300 rounded-full w-10 h-10 flex items-center justify-center bg-white text-[#FFD952]"
+                    >
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                    <p class="text-xl px-3 text-white">Tìm hiểu thêm</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide w-full img_slider">
+            <div
+              class="py-[20%] lg:py-[12%] bg-gradient-to-r from-[#4A3E00] to-[ #282200]"
+            >
+              <div class="container mx-2 lg:mx-auto ">
+                <p
+                  class="uppercase text-[#FFD952] text-[28px] sm:text-[32px] lg:text-[56px] font-light text_shadow"
+                >
+                  Dẫn đầu xu hướng
+                </p>
+                <p
+                  class="uppercase text-[#FFD952] text-[28px] sm:text-[32px] lg:text-[56px] font-light text_shadow"
+                >
+                  Tầm nhìn phong cách
+                </p>
+                <a href="" class="flex items-center">
+                  <div
+                    class="bg-[#FAB207] flex items-center justify-center rounded-[20px] hover:bg-[#ffcd57] duration-300 transition-all"
+                  >
+                    <span
+                      class="hover:bg-[#ffcd57] hover:text-white transition-all duration-300 rounded-full w-10 h-10 flex items-center justify-center bg-white text-[#FFD952]"
+                    >
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                    <p class="text-xl px-3 text-white">Tìm hiểu thêm</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide w-full img_slider">
+            <div
+              class="py-[20%] lg:py-[12%] bg-gradient-to-r from-[#4A3E00] to-[ #282200]"
+            >
+              <div class="container mx-auto ">
+                <p
+                  class="uppercase text-[#FFD952] text-[28px] sm:text-[32px] lg:text-[56px] font-light text_shadow"
+                >
+                  Dẫn đầu xu hướng
+                </p>
+                <p
+                  class="uppercase text-[#FFD952] text-[28px] sm:text-[32px] lg:text-[56px] font-light text_shadow"
+                >
+                  Tầm nhìn phong cách
+                </p>
+                <a href="" class="flex items-center">
+                  <div
+                    class="bg-[#FAB207] flex items-center justify-center rounded-[20px] hover:bg-[#ffcd57] duration-300 transition-all"
+                  >
+                    <span
+                      class="hover:bg-[#ffcd57] hover:text-white transition-all duration-300 rounded-full w-10 h-10 flex items-center justify-center bg-white text-[#FFD952]"
+                    >
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                    <p class="text-xl px-3 text-white">Tìm hiểu thêm</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pagination_slider absolute z-10 left-1/2 translate-x-1/2 bottom-0"
+        ></div>
+      </div>
+    </section>
+
+    <!-- ============== content  =================== -->
+    <section class="list_Products my-8 container mx-auto">
+      <ul
+        class="flex justify-center items-center flex-wrap lg:flex-nowrap mx-auto row -mx-3"
+      >
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product2.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product3.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product4.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product5.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product2.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product3.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product4.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+        <li class="w-1/5 px-2">
+          <a class="box_shadow bg-white block rounded-lg my-2" href="">
+            <img
+              class="hover:translate-y-1 transition-all duration-300"
+              src="../img/product5.png"
+              alt=""
+            />
+            <p class="text-center font-medium">Bồn cầu</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- baner product 1  -->
+    <section class="container mx-auto px-3 lg:px-0">
+      <p class="uppercase text-2xl font-medium text-[#FAB207] mb-3 lg:hidden">
+        Thiết bị vệ sinh
+      </p>
+      <div class="">
+        <img src="../img/product_baner.png" alt="" />
+      </div>
+      <div class="text-lg border-[#DBDBDB] lg:hidden">
+        <div class="flex scoll_product">
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Vòi rửa thông minh</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow text-[#DF9D00] border-[#DF9D00]"
+            href=""
+            >Lavabol</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Bồn tắm
+          </a>
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Tiểu nam/ Tiểu nữ</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Sen tắm</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Vòi chậu Lavabo</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Gương</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Phụ kiện</a
+          >
+        </div>
+      </div>
+      <div class="flex shadow_product rounded-lg mt-5 overflow-hidden mb-6">
+        <div class="w-2/12 text-lg border-r-2 border-[#DBDBDB] hidden lg:block">
+          <div class="bg-[#FAB207] text-center p-4 font-medium text-white">
+            Thiết bị vệ sinh
+          </div>
+          <div class="">
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Vòi rửa thông minh</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 text-[#DF9D00]"
+              href=""
+              >Lavabol</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Bồn tắm
+            </a>
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Tiểu nam/ Tiểu nữ</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Sen tắm</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Vòi chậu Lavabo</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Gương</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Phụ kiện</a
+            >
+          </div>
+        </div>
+
+        <!-- mobi products -->
+        <div class="lg:w-10/12 lg:px-4 pb-4 w-full">
+          <a
+            class="text-end block text-lg transition duration-300 text-[#FAB207] hover:text-[#f3ca6c] py-3 hidden lg:block"
+            href=""
+            title="xem thêm"
+            >Xem Thêm</a
+          >
+          <div class="grid grid-rows-2 grid-cols-5 gap-4 hidden lg:grid">
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp3.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp4.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp5.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp6.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp7.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp3.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-rows-2 grid-cols-2 gap-4 lg:hidden">
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href=""
+            class="h-8 flex justify-center items-center lg:hidden bg-[#FAB207] rounded-lg text-white hover_button block mt-3"
+            >Xem tất cả</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- banner product 2 -->
+    <section class="container mx-auto px-3 lg:px-0">
+      <p class="uppercase text-2xl font-medium text-[#FAB207] mb-3 lg:hidden">
+        Thiết bị nhà bếp
+      </p>
+      <div class="">
+        <img src="../img/product_banner_2.png" alt="" />
+      </div>
+      <div class="text-lg border-[#DBDBDB] lg:hidden">
+        <div class="flex scoll_product">
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Thiết bị lọc nước</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow text-[#DF9D00] border-[#DF9D00]"
+            href=""
+            >Bếp từ</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Máy pha cà phê</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Bếp Gas</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Máy hút mùi</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Lò vi sóng</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Lò nước</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Máy rửa chén</a
+          >
+        </div>
+      </div>
+      <div class="flex shadow_product rounded-lg mt-5 overflow-hidden mb-6">
+        <div class="w-2/12 text-lg border-r-2 border-[#DBDBDB] hidden lg:block">
+          <div class="bg-[#FAB207] text-center p-4 font-medium text-white">
+            Thiết bị nhà bếp
+          </div>
+          <div class="">
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Thiết bị lọc nước</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 text-[#DF9D00]"
+              href=""
+            >
+              Bếp từ</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Máy pha cà phê
+            </a>
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Bếp Gas</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Máy hút mùi</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Lò vi sóng</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Lò nước</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Máy rửa chén</a
+            >
+          </div>
+        </div>
+
+        <div class="lg:w-10/12 lg:px-4 pb-4 w-full">
+          <a
+            class="text-end block text-lg transition duration-300 text-[#FAB207] hover:text-[#f3ca6c] py-3 hidden lg:block"
+            href=""
+            title="xem thêm"
+            >Xem Thêm</a
+          >
+          <div class="grid grid-rows-2 grid-cols-5 gap-4 hidden lg:grid">
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB3.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB4.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB5.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB3.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB4.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB5.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobi products -->
+          <div class="grid grid-rows-2 grid-cols-2 gap-4 lg:hidden">
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB3.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spB4.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href=""
+            class="h-8 flex justify-center items-center lg:hidden bg-[#FAB207] rounded-lg text-white hover_button block mt-3"
+            >Xem tất cả</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- banner product 3 -->
+    <section class="container mx-auto px-3 lg:px-0">
+      <p class="uppercase text-2xl font-medium text-[#FAB207] mb-3 lg:hidden">
+        Đèn trang trí
+      </p>
+      <div class="">
+        <img src="../img/product_banner_3.png" alt="" />
+      </div>
+      <div class="text-lg border-[#DBDBDB] lg:hidden">
+        <div class="flex scoll_product">
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Đèn chùm</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow text-[#DF9D00] border-[#DF9D00]"
+            href=""
+          >
+            Đèn thả bàn</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Đèn trần ốp</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Đèn trang trí ngoài sân</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Đèn trang trí nội thất</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Đèn sân vườn</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Đèn tường soi tranh</a
+          >
+          <a
+            class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 border-2 boder-[#DF9D00] rounded-lg mr-3 box_shadow"
+            href=""
+            >Đèn tường</a
+          >
+        </div>
+      </div>
+      <div class="flex shadow_product rounded-lg mt-5 overflow-hidden mb-6">
+        <div class="w-2/12 text-lg border-r-2 border-[#DBDBDB] hidden lg:block">
+          <div class="bg-[#FAB207] text-center p-4 font-medium text-white">
+            Đèn trang trí
+          </div>
+          <div class="">
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Đèn chùm</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3 text-[#DF9D00]"
+              href=""
+              >Đèn thả bàn</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Đèn trần ốp</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Đèn trang trí ngoài sân</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Đèn trang trí nội thất</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Đèn sân vườn</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Đèn tường soi tranh</a
+            >
+            <a
+              class="block transition-all duration-300 hover:text-yellow-400 font-medium p-3"
+              href=""
+              >Đèn tường</a
+            >
+          </div>
+        </div>
+
+        <!-- mobi products -->
+        <div class="lg:w-10/12 lg:px-4 pb-4 w-full">
+          <a
+            class="text-end block text-lg transition duration-300 text-[#FAB207] hover:text-[#f3ca6c] py-3 hidden lg:block"
+            href=""
+            title="xem thêm"
+            >Xem Thêm</a
+          >
+          <div class="grid grid-rows-2 grid-cols-5 gap-4 hidden lg:grid">
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD3.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD4.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD5.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD3.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD4.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/spD5.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-rows-2 grid-cols-2 gap-4 lg:hidden">
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp1.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="box_product font-medium rounded-lg">
+              <a
+                href=""
+                class="block pt-[90%] bg-[url(../img/sp2.png)] bg-cover bg-no-repeat relative img_products"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 text-white text-md bg-[#FAB207] absolute top-3 right-3 hover:bg-white hover:border-[#FAB207] hover:text-[#FAB207] transition-all duration-300 lg:hidden"
+                ></i>
+              </a>
+              <div class="px-2 py-2">
+                <a href="" class="line-clamp-2 font-semibold hover:text-[#fab207] transition-all duration-300"
+                  >Vòi rửa thông minh V2 (Bản không led - inox)</a
+                >
+                <div class="flex flex-wrap">
+                  <p class="line-through mr-3">4.920.000 đ</p>
+                  <span class="bg-pink-200 px-1 rounded">-35%</span>
+                </div>
+                <p class="text-red-600 text-lg">
+                  2.920.000 <span class="underline">đ</span>
+                </p>
+                <div class="xl:flex justify-between mt-4 hidden">
+                  <a
+                    class="px-3 h-8 flex items-center border-2 border-[#FAB207] justify-center text-white text-sm bg-[#FAB207] block rounded-lg hover_button"
+                    href=""
+                    >Xem nhanh</a
+                  >
+                  <a
+                    class="px-2 h-8 py-2 hover_button_2 text-[#FAB207] flex justify-center items-center text-sm block rounded-lg border-yellow-400 border-2"
+                    href=""
+                    >Thêm giỏ hàng</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href=""
+            class="h-8 flex justify-center items-center lg:hidden bg-[#FAB207] rounded-lg text-white hover_button block mt-3"
+            >Xem tất cả</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- service -->
+    <section
+     class="container mx-auto font-medium text-3xl">
+      <div class="text-center uppercase mt-8 mb-4 text-2xl font-semibold">
+        Dịch vụ của chúng tôi
+      </div>
+      <div class="flex flex-wrap -mx-3">
+        <div class="w-full mb-4 md:w-1/2 lg:w-1/3 px-3">
+          <a
+            href=""
+            class="c-img pt-[50%] relative before:block before:inset-0 before:bg-black/70 before:absolute before:z-[2] rounded-lg overflow-hidden img_service"
+          >
+            <img src="../img/sp1.png" alt="" />
+            <p
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[3] text-white uppercase text-2xl text-center"
+            >
+              THIẾT KẾ TRANG TRÍ NHÀ TẮM
+            </p>
+          </a>
+        </div>
+        <div class="w-full mb-4 md:w-1/2 lg:w-1/3 px-3">
+          <a
+            href=""
+            class="c-img pt-[50%] relative before:block before:inset-0 before:bg-black/70 before:absolute before:z-[2] rounded-lg overflow-hidden img_service"
+          >
+            <img src="../img/spB2.png" alt="" />
+            <p
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[3] text-white uppercase text-2xl text-center"
+            >
+              THIẾT KẾ TRANG TRÍ NHÀ BẾP
+            </p>
+          </a>
+        </div>
+        <div class="w-full mb-4 md:w-1/2 lg:w-1/3 px-3">
+          <a
+            href=""
+            class="c-img pt-[50%] relative before:block before:inset-0 before:bg-black/70 before:absolute before:z-[2] rounded-lg overflow-hidden img_service"
+          >
+            <img src="../img/spD3.png" alt="" />
+            <p
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[3] text-white uppercase text-2xl text-center"
+            >
+              THIẾT KẾ TRANG TRÍ ĐÈN
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- news  -->
+    <section class="overflow-x-hidden">
+      <div class="container mx-auto">
+        <div class="flex justify-between mt-4 mb-2">
+          <div class="text-2xl font-semibold">Tin tức</div>
+          <a
+            href=""
+            class="text-[#FAB207] transition-all duration-300 hover:text-[#edc567]"
+          >
+            Xem thêm<i class="ml-3 fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="w-[calc(100%+1.5rem)] -translate-x-3">
+          <div class="swiper slider_new">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="p-3">
+                  <a
+                    href=""
+                    class="bg-white rounded-lg overflow-hidden block w-full box_shadow"
+                  >
+                    <div
+                      class="bg-[url(../img/new1.png)] bg-no-repeat bg-cover pt-[50%] img_products"
+                    ></div>
+                    <div class="p-3">
+                      <p class="mb-3">
+                        <span class="text-gray-500 mr-3"
+                          ><i class="fa-solid fa-clock mr-2"></i
+                          >16/04/2024</span
+                        >
+                        <span class="text-gray-500"
+                          ><i class="fa-solid fa-eye mr-2"></i>6688</span
+                        >
+                      </p>
+                      <div
+                        class="line-clamp-2 mb-3 text-xl font-semibold hover:text-[#FAB207] transition-all duration-300"
+                      >
+                        z Các “ông lớn” ngành thiết bị vệ sinh đã phải thay đổi
+                        trước cơn bão mang tên “Phá giá thị trường”
+                      </div>
+                      <p class="line-clamp-2">
+                        Phá giá thị trường là hành vi bán hàng hóa hoặc dịch vụ
+                        ở mức giá thấp so với giá thông thường nhằm giành thị
+                        phần, loại bỏ đối thủ cạnh tranh trên thị trường. Những
+                        đại lý phá giá thường là những đại lý lớn, có trong hệ
+                        thống của các hãng thiết bị vệ sinh. Họ bán giá thấp hơn
+                        thị trường để thu hút lượng lớn khách hàng trong vùng
+                        bán và cả khách hàng của vùng khác – vốn là vùng bán của
+                        đại lý nhỏ hơn, khiến đại lý nhỏ mất khách hàng, doanh
+                        thu giảm dần, dẫn đến việc từ bỏ thương hiệu vì không có
+                        lợi nhuận.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-3">
+                  <a
+                    href=""
+                    class="bg-white rounded-lg overflow-hidden block w-full box_shadow"
+                  >
+                    <div
+                      class="bg-[url(../img/new2.png)] bg-no-repeat bg-cover pt-[50%] img_products"
+                    ></div>
+                    <div class="p-3">
+                      <p class="mb-3">
+                        <span class="text-gray-500 mr-3"
+                          ><i class="fa-solid fa-clock mr-2"></i
+                          >16/04/2024</span
+                        >
+                        <span class="text-gray-500"
+                          ><i class="fa-solid fa-eye mr-2"></i>6688</span
+                        >
+                      </p>
+                      <div
+                        class="line-clamp-2 mb-3 text-xl font-semibold hover:text-[#FAB207] transition-all duration-300"
+                      >
+                        z Các “ông lớn” ngành thiết bị vệ sinh đã phải thay đổi
+                        trước cơn bão mang tên “Phá giá thị trường”
+                      </div>
+                      <p class="line-clamp-2">
+                        Phá giá thị trường là hành vi bán hàng hóa hoặc dịch vụ
+                        ở mức giá thấp so với giá thông thường nhằm giành thị
+                        phần, loại bỏ đối thủ cạnh tranh trên thị trường. Những
+                        đại lý phá giá thường là những đại lý lớn, có trong hệ
+                        thống của các hãng thiết bị vệ sinh. Họ bán giá thấp hơn
+                        thị trường để thu hút lượng lớn khách hàng trong vùng
+                        bán và cả khách hàng của vùng khác – vốn là vùng bán của
+                        đại lý nhỏ hơn, khiến đại lý nhỏ mất khách hàng, doanh
+                        thu giảm dần, dẫn đến việc từ bỏ thương hiệu vì không có
+                        lợi nhuận.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-3">
+                  <a
+                    href=""
+                    class="bg-white rounded-lg overflow-hidden block w-full box_shadow"
+                  >
+                    <div
+                      class="bg-[url(../img/new3.png)] bg-no-repeat bg-cover pt-[50%] img_products"
+                    ></div>
+                    <div class="p-3">
+                      <p class="mb-3">
+                        <span class="text-gray-500 mr-3"
+                          ><i class="fa-solid fa-clock mr-2"></i
+                          >16/04/2024</span
+                        >
+                        <span class="text-gray-500"
+                          ><i class="fa-solid fa-eye mr-2"></i>6688</span
+                        >
+                      </p>
+                      <div
+                        class="line-clamp-2 mb-3 text-xl font-semibold hover:text-[#FAB207] transition-all duration-300"
+                      >
+                        z Các “ông lớn” ngành thiết bị vệ sinh đã phải thay đổi
+                        trước cơn bão mang tên “Phá giá thị trường”
+                      </div>
+                      <p class="line-clamp-2">
+                        Phá giá thị trường là hành vi bán hàng hóa hoặc dịch vụ
+                        ở mức giá thấp so với giá thông thường nhằm giành thị
+                        phần, loại bỏ đối thủ cạnh tranh trên thị trường. Những
+                        đại lý phá giá thường là những đại lý lớn, có trong hệ
+                        thống của các hãng thiết bị vệ sinh. Họ bán giá thấp hơn
+                        thị trường để thu hút lượng lớn khách hàng trong vùng
+                        bán và cả khách hàng của vùng khác – vốn là vùng bán của
+                        đại lý nhỏ hơn, khiến đại lý nhỏ mất khách hàng, doanh
+                        thu giảm dần, dẫn đến việc từ bỏ thương hiệu vì không có
+                        lợi nhuận.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-3">
+                  <a
+                    href=""
+                    class="bg-white rounded-lg overflow-hidden block w-full box_shadow"
+                  >
+                    <div
+                      class="bg-[url(../img/new4.png)] bg-no-repeat bg-cover pt-[50%] img_products"
+                    ></div>
+                    <div class="p-3">
+                      <p class="mb-3">
+                        <span class="text-gray-500 mr-3"
+                          ><i class="fa-solid fa-clock mr-2"></i
+                          >16/04/2024</span
+                        >
+                        <span class="text-gray-500"
+                          ><i class="fa-solid fa-eye mr-2"></i>6688</span
+                        >
+                      </p>
+                      <div
+                        class="line-clamp-2 mb-3 text-xl font-semibold hover:text-[#FAB207] transition-all duration-300"
+                      >
+                        z Các “ông lớn” ngành thiết bị vệ sinh đã phải thay đổi
+                        trước cơn bão mang tên “Phá giá thị trường”
+                      </div>
+                      <p class="line-clamp-2">
+                        Phá giá thị trường là hành vi bán hàng hóa hoặc dịch vụ
+                        ở mức giá thấp so với giá thông thường nhằm giành thị
+                        phần, loại bỏ đối thủ cạnh tranh trên thị trường. Những
+                        đại lý phá giá thường là những đại lý lớn, có trong hệ
+                        thống của các hãng thiết bị vệ sinh. Họ bán giá thấp hơn
+                        thị trường để thu hút lượng lớn khách hàng trong vùng
+                        bán và cả khách hàng của vùng khác – vốn là vùng bán của
+                        đại lý nhỏ hơn, khiến đại lý nhỏ mất khách hàng, doanh
+                        thu giảm dần, dẫn đến việc từ bỏ thương hiệu vì không có
+                        lợi nhuận.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-3">
+                  <a
+                    href=""
+                    class="bg-white rounded-lg overflow-hidden block w-full box_shadow"
+                  >
+                    <div
+                      class="bg-[url(../img/new3.png)] bg-no-repeat bg-cover pt-[50%] img_products"
+                    ></div>
+                    <div class="p-3">
+                      <p class="mb-3">
+                        <span class="text-gray-500 mr-3"
+                          ><i class="fa-solid fa-clock mr-2"></i
+                          >16/04/2024</span
+                        >
+                        <span class="text-gray-500"
+                          ><i class="fa-solid fa-eye mr-2"></i>6688</span
+                        >
+                      </p>
+                      <div
+                        class="line-clamp-2 mb-3 text-xl font-semibold hover:text-[#FAB207] transition-all duration-300"
+                      >
+                        z Các “ông lớn” ngành thiết bị vệ sinh đã phải thay đổi
+                        trước cơn bão mang tên “Phá giá thị trường”
+                      </div>
+                      <p class="line-clamp-2">
+                        Phá giá thị trường là hành vi bán hàng hóa hoặc dịch vụ
+                        ở mức giá thấp so với giá thông thường nhằm giành thị
+                        phần, loại bỏ đối thủ cạnh tranh trên thị trường. Những
+                        đại lý phá giá thường là những đại lý lớn, có trong hệ
+                        thống của các hãng thiết bị vệ sinh. Họ bán giá thấp hơn
+                        thị trường để thu hút lượng lớn khách hàng trong vùng
+                        bán và cả khách hàng của vùng khác – vốn là vùng bán của
+                        đại lý nhỏ hơn, khiến đại lý nhỏ mất khách hàng, doanh
+                        thu giảm dần, dẫn đến việc từ bỏ thương hiệu vì không có
+                        lợi nhuận.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="pagination_new text-center"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- partners -->
+    <section class="mt-6 container mx-auto lg:pb-20">
+      <div class="text-center font-semibold text-2xl mb-4 uppercase">
+        Đối tác
+      </div>
+      <div class="flex flex-nowrap lg:flex-wrap overflow-x-auto -m-2 mb-8 lg:mb-0">
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners2.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners3.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners2.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners3.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners2.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners3.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners2.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners3.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners2.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners3.png" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-[calc(100%/8)] p-2">
+          <div
+            class="border border-gray-500 h-28 flex justify-center items-center rounded-lg w-56 lg:w-auto"
+          >
+            <img class=" " src="../img/partners.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================ footer ================== -->
+    <footer
+      class="bg-[url(../img/banner.jpg)] bg-cover bg-no-repeat relative before:absolute before:inset-0 before:bg-black/70 before:z-[2]"
+    >
+      <div class="container  mx-auto relative z-[3] mb-[72px] lg:mb-0">
+        <div
+          class="lg:flex justify-between items-center lg:border-b border-white pt-8 lg:py-10"
+        >
+          <a href="">
+            <img src="../img/logo_footer.png" alt="" />
+          </a>
+          <div class="lg:flex justify-center items-center">
+            <div
+              class="flex rounded-lg overflow-hidden text-white lg:mr-8 h-12 my-5 lg:my-0"
+            >
+              <input
+                class="w-full p-4 lg:w-80 bg-[#686768] placeholder:text-white"
+                type="text"
+                placeholder="Nhập Email của bạn..."
+              />
+              <a
+                href=""
+                class="w-40 lg:w-auto flex items-center justify-center bg-[#FAB207] px-4 hover:bg-[#f1c358] transition-all duration-300"
+                >Liên hệ</a
+              >
+            </div>
+            <div class="rounded-lg overflow-hidden hidden lg:block">
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnoithatrakhoi%2F%3Flocale%3Dvi_VN&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
+                width="340"
+                height="130"
+                style="border: none; overflow: hidden"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:flex text-white my-8">
+          <div class="w lg:w-6/12">
+            <p class="text-xl uppercase font-semibold mb-4">Liên hệ</p>
+            <p class="">
+              <i
+                class="w-8 inline-block text-xl my-1 fa-solid fa-location-dot"
+              ></i
+              >Số 592 Liên Phường, Phường Phú Hữu, Quận 9, Thành phố Hồ Chí Minh
+            </p>
+            <a
+              href="tel:09716block06565"
+              class="hover:text-[#FAB207] transition-all duration-300"
+            >
+              <i class="w-8 inline-block text-xl my-1 fa-solid fa-phone"></i
+              >0971606565 (Viber/Zalo)
+            </a>
+            <a
+              href=""
+              class="block hover:text-[#FAB207] transition-all duration-300"
+            >
+              <i class="w-8 inline-block text-xl my-1 fa-solid fa-envelope"></i
+              >info@noithatrakhoi.com
+            </a>
+            <div class="py-1">
+              <p class="">
+                GCN ĐKDN: 0315317667 – Cấp ngày: 09/10/2018 Cơ quan cấp: Phòng
+              </p>
+              <p class="">Đăng ký kinh doanh – Sở Kế hoạch và đầu tư TPHCM</p>
+            </div>
+            <p class="hidden lg:flex">
+              <img src="../img/bct1.png" alt="" />
+              <img src="../img/bct2.png" alt="" />
+            </p>
+          </div>
+          <div class="lg:w-4/12 flex my-5 lg:my-0">
+            <div class="w-1/2">
+              <p class="text-xl uppercase font-semibold mb-4">SẢN PHẨM</p>
+              <a
+                href=""
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                >Vòi rửa</a
+              >
+              <a
+                href=""
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                >Sen tắm</a
+              >
+              <a
+                href=""
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                >Gương</a
+              >
+              <a
+                href=""
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                >Phụ kiện</a
+              >
+            </div>
+            <div class="w-1/2">
+              <p class="text-xl uppercase font-semibold mb-4">HỢP TÁC</p>
+              <a
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                href=""
+                >Khách hàng 1</a
+              >
+              <a
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                href=""
+                >Khách hàng 2</a
+              >
+              <a
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                href=""
+                >Khách hàng 3</a
+              >
+              <a
+                class="block hover:text-[#FAB207] transition-all duration-300 py-2"
+                href=""
+                >Khách hàng 4</a
+              >
+            </div>
+          </div>
+          <div class="w-full lg:w-2/12 flex lg:block">
+            <a href="" class="flex items-center hover:text-[#fab207] transition-all duration-300"
+              ><i
+                class="fa-brands fa-facebook-f inline-flex bg-white text-[#FAB207] justify-center items-center w-10 h-10 rounded-full mr-5 lg:mr-2 hover:text-white hover:bg-[#FAB207] transition-all duration-300 my-2"
+              ></i
+              ><span class="uppercase hidden lg:block">Facebook</span>
+            </a>
+            <a href="" class="flex items-center hover:text-[#fab207] transition-all duration-300"
+              ><i
+                class="fa-brands fa-instagram inline-flex bg-white text-[#FAB207] justify-center items-center w-10 h-10 rounded-full mr-5 lg:mr-2 hover:text-white hover:bg-[#FAB207] transition-all duration-300 my-2"
+              ></i
+              ><span class="uppercase hidden lg:block">instagram</span>
+            </a>
+            <a href="" class="flex items-center hover:text-[#fab207] transition-all duration-300"
+              ><i
+                class="fa-brands fa-youtube inline-flex bg-white text-[#FAB207] justify-center items-center w-10 h-10 rounded-full mr-5 lg:mr-2 hover:text-white hover:bg-[#FAB207] transition-all duration-300 my-2"
+              ></i
+              ><span class="uppercase hidden lg:block">Youtube</span>
+            </a>
+            <a href="" class="flex items-center hover:text-[#fab207] transition-all duration-300"
+              ><i
+                class="fa-brands fa-pinterest inline-flex bg-white text-[#FAB207] justify-center items-center w-10 h-10 rounded-full mr-5 lg:mr-2 hover:text-white hover:bg-[#FAB207] transition-all duration-300 my-2"
+              ></i
+              ><span class="uppercase hidden lg:block">Pinterest</span>
+            </a>
+          </div>
+          <p class="flex lg:hidden">
+            <img src="../img/bct1.png" alt="" />
+            <img src="../img/bct2.png" alt="" />
+          </p>
+        </div>
+        <!-- footer bottom -->
+        <p class="coppyright text-center text-white border-t border-white py-3">
+          Copyright © 2024 Nội Thất RA KHƠI. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    
+    <!-- mobi navigation  -->
+     <div class="fixed lg:hidden bottom-0 z-10 w-full bg-white">
+      <div class="flex items-center justify-between text-gray-400 py-3 px-2">
+        <a href="" class="text-center block hover:text-[#fab207] text-[#fab207]">
+          <i class="fa-solid fa-house"></i>
+          <p>Trang chủ</p>
+        </a>
+        <a href="" class="text-center block hover:text-[#fab207]">
+          <i class="fa-solid fa-table-cells-large"></i>
+          <p>Danh mục</p>
+        </a>
+        <a href="" class="text-center block hover:text-[#fab207]">
+          <i class="fa-solid fa-phone"></i>
+          <p>Gọi điện</p>
+        </a>
+        <a href="" class="text-center block hover:text-[#fab207]">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>Giỏ hàng</p>
+        </a>
+       </div>
+     </div>
+    <a
+      href="javascript:void(0)"
+      title="Lên đầu trang"
+      class="btn-to-top fixed z-30 transition-all duration-300 right-5 bottom-[84px] bg-[#FAB207] border-2 border-[#FAB207] hover:bg-white hover:text-[#fab207] ftext-[1rem] items-center justify-center size-12 mx-auto rounded-full bg-cl-red text-white"
+    >
+      <i class="fa-solid fa-up-long group-hover:text-[#FAB207]">
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html

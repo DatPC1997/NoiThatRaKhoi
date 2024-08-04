@@ -1,0 +1,15 @@
+{
+  "name": "noi_that_ra_khoi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "Build": "npx tailwindcss -i ./css/input.css -o ./css/outPut.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

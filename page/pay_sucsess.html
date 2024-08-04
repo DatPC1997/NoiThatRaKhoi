@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../font/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/outPut.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Thanh toán</title>
+  </head>
+  <body>
+    <div class="bg-[#f6f6f6]">
+      <!-- điều hướng  -->
+      <div class="container mx-auto pt-12 mb-3">
+        <span><i class="fa-solid fa-house"></i></span>
+        <span>Trang chủ</span>
+        <span><i class="fa-solid fa-angles-right"></i></span>
+        <span class="text_main">Giỏ hàng</span>
+      </div>
+      <!-- pay  -->
+      <div class="container mx-auto">
+        <div class="text-2xl font-semibold uppercase mt-6 mb-3">Thanh toán</div>
+        <div class="flex flex-wrap pb-8 lg:pb-16 lg:-mx-2">
+          <div class="lg:w-8/12 px-2">
+            <div class="bg-white rounded-lg box_shadow p-4 mb-4">
+              <p class="text-lg font-medium mb-4">Thông tin liên hệ</p>
+              <p class="text-md mb-3">
+                Chúng tôi sử dụng email để gửi thông tin mô tả và cập nhật thông
+                tin đơn hàng của bạn
+              </p>
+              <input
+                class="p-2 border border-[#bebebe] rounded-lg w-full outline-none"
+                type="text"
+                placeholder="Địa chỉ email ..."
+              />
+            </div>
+            <div class="bg-white rounded-lg box_shadow p-4 mb-4">
+              <p class="text-lg font-medium mb-4">Địa chỉ giao hàng</p>
+              <p class="text-md mb-3">
+                Chúng tôi sử dụng email để gửi thông tin mô tả và cập nhật thông
+                tin đơn hàng của bạn
+              </p>
+              <input
+                class="p-2 border border-[#bebebe] rounded-lg w-full outline-none mb-3"
+                type="text"
+                placeholder="Họ và tên"
+              />
+              <input
+                class="p-2 border border-[#bebebe] rounded-lg w-full outline-none mb-3"
+                type="number"
+                placeholder="Số điện thoại"
+              />
+              <input
+                class="p-2 border border-[#bebebe] rounded-lg w-full outline-none mb-3"
+                type="text"
+                placeholder="Địa chỉ "
+              />
+              <input
+                class="p-2 border border-[#bebebe] rounded-lg w-full outline-none mb-3 pb-32"
+                type="text"
+                placeholder="Ghi chú ..."
+              />
+            </div>
+            <div class="bg-white rounded-lg box_shadow p-4 mb-4">
+              <p class="text-lg font-medium mb-4">Hình thức thanh toán</p>
+              <div
+                class="flex pay items-center border border-[#fab207] rounded-lg p-3"
+              >
+                <input class="mr-2" type="radio" />
+                <img class="mr-3" src="../img/QR_Code.png" alt="" />
+                <p class="font-medium">
+                  Chuyển khoản liên ngân hàng bằng QR Code
+                </p>
+              </div>
+            </div>
+            <a
+              href=""
+              class="hidden lg:block bg-[#fab207] p-3 rounded-lg text-white text-lg text-center uppercase hover_button"
+            >
+              Đặt hàng
+            </a>
+          </div>
+          <div class="w-full lg:w-4/12 px-2">
+            <div class="bg-white px-2 rounded-lg p-3">
+              <div
+                class="text-end font-semibold text-lg pb-4 border-b border-[#bebebe] pt-6"
+              >
+                Tổng giá trị
+              </div>
+              <div class="">
+                <div class="my-12">
+                  <div class="flex justify-between items-center mb-5">
+                    <p>Tạm tính</p>
+                    <p class="font-semibold">12.668.000 đ</p>
+                  </div>
+                  <div class="flex justify-between items-center mb-5">
+                    <p>Phí vận chuyển</p>
+                    <p class="font-semibold">Miễn phí</p>
+                  </div>
+                  <div class="flex justify-between items-center mb-5">
+                    <p>Giảm giá</p>
+                    <p class="font-semibold">0 đ</p>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="flex justify-between border-t border-[#bebebe] pt-6"
+                  >
+                    <p>Tổng</p>
+                    <p class="font-semibold">12.668.000 đ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          href=""
+          class="block lg:hidden bg-[#fab207] p-3 rounded-lg text-white text-lg text-center uppercase hover_button"
+        >
+          Đặt hàng
+        </a>
+      </div>
+
+      <!-- pop up modal  -->
+      <div class="bg_over_modal">
+        <div
+          class="absolute top-0 sm:top-[10%] left-1/2 -translate-x-1/2 bg-[url(../img/bg_pay.png)] bg-no-repeat bg-cover rounded-lg py-6 px-8 xl:py-12 xl:px-20 xl:w-[1064px] w-[90%]"
+        >
+          <div class="text-center">
+            <div class="flex justify-center mb-8">
+              <img src="../img/icon_check.png" alt="" />
+            </div>
+            <p class="text-[#198038] text-3xl font-semibold mb-4">
+              THANH TOÁN THÀNH CÔNG
+            </p>
+            <p class="mb-4 font-semibold">
+              Cảm ơn quý khách đã đặt hàng tại [Tên công ty]
+            </p>
+            <p class="text-[#198038] mb-4 font-semibold">
+              Bạn đã thanh toán 12.668.000đ
+            </p>
+          </div>
+          <a
+            href=""
+            class="rounded-full p-3 mx-auto w-auto sm:w-64 uppercase mt-6 flex justify-center items-center text-white bg-gradient-to-r from-[#3B6A34] to-[#82B82B] hover:bg-[#82B82B] transition-all duration-300 text-center"
+            >Quay trở về trang chủ</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="h-screen"></footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</html>
